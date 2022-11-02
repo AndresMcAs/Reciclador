@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.residuos.ResiduosFragment"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+
+        <TextView
+            android:id="@+id/textTituloResiduos"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="30dp"
+            android:text="@string/residuos_titulo"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/imgBtnContenedorAzul"
+            android:layout_width="1in"
+            android:layout_height="1.2in"
+            android:scaleType="centerInside"
+            android:src="@drawable/bote_azul"
+            android:layout_above="@id/imgBtnContenedorNaranja"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp"
+
+            app:srcCompat="@drawable/bote_azul"
+            app:layout_constraintHeight_percent="0.2"
+            app:layout_constraintWidth_percent="0.2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <ImageButton
+            android:id="@+id/imgBtnContenedorVerde"
+            android:layout_width="1in"
+            android:layout_height="1.2in"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/bote_verde"
+            android:layout_above="@id/imgBtnContenedorNaranja"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/imgBtnContenedorAmarrillo"
+            android:layout_width="1in"
+            android:layout_height="1.2in"
+            android:scaleType="centerInside"
+            android:src="@drawable/bote_amarrillo"
+            android:layout_above="@id/imgBtnContenedorGris"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/imgBtnContenedorNaranja"
+            android:layout_width="1in"
+            android:layout_height="1.2in"
+            android:scaleType="centerInside"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/bote_naranja"
+            android:background="@android:color/transparent"
+            android:layout_above="@id/imgBtnContenedorGris"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/imgBtnContenedorGris"
+            android:layout_width="1in"
+            android:layout_height="1.2in"
+            android:scaleType="centerInside"
+            android:src="@drawable/bote_gris"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp"/>
+
+</RelativeLayout>

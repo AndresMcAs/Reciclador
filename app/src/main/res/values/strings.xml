@@ -14,7 +14,29 @@
     <string name="menu_contenedores">Contenedores</string>
     <string name="menu_Legal">Legal</string>
     <string name="menu_Ayuda">Ayuda</string>
+    <string name="menu_Residuos">Contenedores</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="residuos_titulo">selecciona el contenedor de tu interes</string>
+
+    <string name="contenedor_azul_titulo">residuos de papel</string>
+    <string name="contenedor_verde_titulo">reciduos organicos</string>
+    <string name="contenedor_amarillo_titulo">residuos amarillo</string>
+    <string name="contenedor_naranja_titulo">residuos naranja</string>
+    <string name="contenedor_gris_titulo">residuos no reciclables</string>
+
+    <string name="contenedor_azul_descripcion">En este contendor van los residuos de papel.</string>
+    <string name="contenedor_verde_descripcion">descripcion verde</string>
+    <string name="contenedor_amarillo_descripcion">descripcion amarillo</string>
+    <string name="contenedor_naranja_descripcion">descripcion naranja</string>
+    <string name="contenedor_gris_descripcion">descripcion gris</string>
+
+    <string name="contenedor_azul_cabecera">residuos de papel</string>
+    <string name="contenedor_verde_cabecera">reciduos organicos</string>
+    <string name="contenedor_amarillo_cabecera">residuos amarillo</string>
+    <string name="contenedor_naranja_cabecera">residuos naranja</string>
+    <string name="contenedor_gris_cabecera">residuos no reciclables</string>
+
 
 </resources>
