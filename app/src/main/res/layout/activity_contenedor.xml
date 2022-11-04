@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.residuos.Contenedor"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <ImageView
+        android:id="@+id/imgContenedor"
+        android:layout_width="match_parent"
+        android:layout_height="1.8in"
+        android:scaleType="centerInside"
+        android:layout_margin="20dp"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+    <TextView
+        android:id="@+id/txtTituloContenedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imgContenedor"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:id="@+id/txtDescripcionContenedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtTituloContenedor"
+        android:layout_weight="2"
+        android:text="TextView" />
+</LinearLayout>
