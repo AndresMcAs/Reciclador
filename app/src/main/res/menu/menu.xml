@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_tomar_foto"
+        android:title="Tomara foto"
+        android:icon="@drawable/ic_menu_camera"
+
+        />
+
+    <item android:id="@+id/nav_tomar_foto_galeria"
+        android:title="Galeria"
+        android:icon="@drawable/ic_menu_gallery"
+
+        />
+
+    <item android:id="@+id/nav_informacion"
+        android:title="Información"
+        android:icon="@android:drawable/stat_notify_chat"
+
+        />
+</menu>

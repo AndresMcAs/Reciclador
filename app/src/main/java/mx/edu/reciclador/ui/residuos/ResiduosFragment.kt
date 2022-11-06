@@ -43,7 +43,7 @@ class ResiduosFragment : Fragment() {
         btnContenedorNaranja = view.findViewById(R.id.imgBtnContenedorNaranja)
         btnContenedorGris = view.findViewById(R.id.imgBtnContenedorGris)
 
-        var contenedor = ContenedorBasura()
+        //var contenedor = ContenedorBasura()
 
         btnContenedorAzul.setOnClickListener(){
             var intent = Intent(activity,Contenedor::class.java)
