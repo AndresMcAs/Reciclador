@@ -1,4 +1,5 @@
 <resources>
+    <!-- TODO: String de menu desplegable -->
     <string name="app_name">Reciclador</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -6,38 +7,48 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="nav_identificador">Identificar</string>
-    <string name="action_settings">Settings</string>
-
-
+    <string name="action_settings">Ajutes</string>
     <string name="menu_identificar">Identificar</string>
     <string name="menu_gallery">Galeria</string>
     <string name="menu_contenedores">Contenedores</string>
     <string name="menu_Legal">Legal</string>
     <string name="menu_Ayuda">Ayuda</string>
     <string name="menu_Residuos">Contenedores</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- TODO: String de contenedores PRINCIPAL -->
     <string name="residuos_titulo">selecciona el contenedor de tu interes</string>
-
     <string name="contenedor_azul_titulo">residuos de papel</string>
     <string name="contenedor_verde_titulo">reciduos organicos</string>
     <string name="contenedor_amarillo_titulo">residuos amarillo</string>
     <string name="contenedor_naranja_titulo">residuos naranja</string>
     <string name="contenedor_gris_titulo">residuos no reciclables</string>
 
-    <string name="contenedor_azul_descripcion">En este contendor van los residuos de papel.</string>
-    <string name="contenedor_verde_descripcion">descripcion verde</string>
-    <string name="contenedor_amarillo_descripcion">descripcion amarillo</string>
-    <string name="contenedor_naranja_descripcion">descripcion naranja</string>
-    <string name="contenedor_gris_descripcion">descripcion gris</string>
-
+    <!-- TODO: String de contenedores CABECERA -->
     <string name="contenedor_azul_cabecera">residuos de papel</string>
     <string name="contenedor_verde_cabecera">reciduos organicos</string>
     <string name="contenedor_amarillo_cabecera">residuos amarillo</string>
     <string name="contenedor_naranja_cabecera">residuos naranja</string>
     <string name="contenedor_gris_cabecera">residuos no reciclables</string>
 
+     <!-- TODO: String de contenedores DESCRIPCION -->
+
+    <string name="contenedor_azul_descripcion">Botellas de agua, jugos y refrescos
+        * envases de yogurt * botellas de suavizantes y detergentes.</string>
+    <string name="contenedor_verde_descripcion">Restos de verduras, hortalizas y frutas
+        * pasto, flores* ramas * residuos de alimentos: cascaron de huevo * restos de cafe y te
+        * filtros de papal para cafe y te * pan * tortillas * productos lacteos (Sin recipiente)
+        * huesos.</string>
+    <string name="contenedor_amarillo_descripcion">Hojas de papel * folders * periódicos
+        * volantes * cartón sin residuos de comida.</string>
+    <string name="contenedor_naranja_descripcion">latas de refresco, jugo y té * papel aluminio
+        * frascos y botellas de vidrio * tetra pack de leche, jugo, yogurt
+        * restos de material metálico de construcción.</string>
+    <string name="contenedor_gris_descripcion">Charolas, platos, vasos y cubiertos
+        de un solo uso (unicel o plástico desechable) * bolsas de celofán, metalizadas, enceradas
+        * colillas de cigarro * pañuelos desechables * papel con comida
+        * servilletas y cartón con grasa.</string>
+
+    <!-- TODO: String de legal y ayuda  -->
     <string name="titulo_ayuda">Ayuda</string>
     <string name="titulo_legal">Legal</string>
     <string name="legal_derechos">Derechos de propiedad</string>
