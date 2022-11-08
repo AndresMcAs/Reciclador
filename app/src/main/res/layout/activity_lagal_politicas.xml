@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Legal">
+
+    <TextView
+        android:id="@+id/textTituloPolitica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/legal_politicas"
+        android:layout_marginTop="-200dp"
+        />
+
+    <TextView
+        android:id="@+id/textDescripcionTerminos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Protección de datos de carácter personal \n
+        Software Solutions, garantizará la protección de los datos personales
+        mediante cifrado durante el tránsito y, los alojados en instalaciones,
+        con medidas de seguridad físicas. \n
+        Al usar ciertos productos, servicios o aplicaciones o al publicar
+        opiniones en foros, salas de chat o redes sociales, el contenido y los
+        datos de carácter personal que se comparta serán visible para otros
+        usuarios, que tendrán la posibilidad de leerlos, compilarlos o usarlos.
+        Usted será responsable de los datos de carácter personal que
+        distribuya o proporcione en estos casos.
+        Integridad y conservación de datos de carácter personal \n
+        Software Solutions garantizará la exactitud y la calidad de los datos
+        personales, se conservarán durante el tiempo necesario para cumplir los
+        fines para los que fueron recabados, salvo que la ley exija conservarlos
+        durante más tiempo."
+        />
+
+</LinearLayout>

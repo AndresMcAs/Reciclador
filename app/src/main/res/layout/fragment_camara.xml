@@ -1,27 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.home.Camara">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Identificar"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="40dp" />
-   <LinearLayout
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content">
-
-   </LinearLayout>
+    <ImageButton
+        android:id="@+id/botonCamara"
+        android:layout_width="92dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/ic_menu_camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonGuardar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="#171616" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/botonGuardar"
+        android:layout_width="101dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/ic_menu_gallery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="#171616" />
+
+    <TextView
+        android:id="@+id/identifica"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_menu_camera" />
-</FrameLayout>
+        android:text="Identificar"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/foto_tomada"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <TextView
+        android:id="@+id/tseleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona o toma una foto"
+        android:textSize="25dp"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintBottom_toBottomOf="@+id/foto_tomada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/identifica" />
+
+    <ImageView
+        android:id="@+id/foto_tomada"
+        android:layout_width="406dp"
+        android:layout_height="599dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical_centerline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".50" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

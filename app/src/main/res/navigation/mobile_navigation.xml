@@ -18,20 +18,21 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_identificador"
-        android:name="mx.edu.reciclador.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_informacionResiduo"
+        android:name="mx.edu.reciclador.ui.informacion.Informacion"
         android:label="@string/menu_identificar"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_informacion" />
     <fragment
         android:id="@+id/nav_ayuda"
-        android:name="mx.edu.reciclador.ui.slideshow.SlideshowFragment"
+        android:name="mx.edu.reciclador.ui.legal.Ayuda"
         android:label="@string/menu_Ayuda"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_ayuda" />
 
     <fragment
         android:id="@+id/nav_contenedores"
         android:name="mx.edu.reciclador.ui.residuos.ResiduosFragment"
-        android:label="@string/menu_contenedores"
+        android:label="@string/menu_Residuos"
         tools:layout="@layout/fragment_residuos" />
+
 
 </navigation>

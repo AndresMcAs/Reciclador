@@ -2,7 +2,7 @@ package mx.edu.reciclador
 
 import android.os.Bundle
 import android.view.Menu
-import com.google.android.material.snackbar.Snackbar
+
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -25,8 +25,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setSupportActionBar(binding.appBarMain.toolbar)
-
-
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_main)
@@ -34,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_identificador,R.id.nav_ayuda, R.id.nav_Legal
+                R.id.nav_home, R.id.nav_gallery,R.id.nav_ayuda, R.id.nav_Legal, R.id.nav_contenedores
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

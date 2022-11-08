@@ -1,10 +1,10 @@
-package mx.edu.reciclador.ui.slideshow
+package mx.edu.reciclador.ui.informacion
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SlideshowViewModel : ViewModel() {
+class InformacionViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
         value = " Identificador"

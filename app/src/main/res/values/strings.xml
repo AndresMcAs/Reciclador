@@ -38,5 +38,10 @@
     <string name="contenedor_naranja_cabecera">residuos naranja</string>
     <string name="contenedor_gris_cabecera">residuos no reciclables</string>
 
-
+    <string name="titulo_ayuda">Ayuda</string>
+    <string name="titulo_legal">Legal</string>
+    <string name="legal_derechos">Derechos de propiedad</string>
+    <string name="legal_terminos">Términos y Condiciones</string>
+    <string name="legal_politicas">Políticas de privacidad</string>
+    <string name="legal_informacion">Información de Ubicación</string>
 </resources>

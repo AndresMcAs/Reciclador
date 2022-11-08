@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.legal.Ayuda">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imagen_ic_ayuda"
+        android:layout_width="109dp"
+        android:layout_height="75dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_ayuda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="45dp" />
+
+
+    <TextView
+        android:id="@+id/ayuda_funcionamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Funcionamiento: \n
+        Al iniciar la aplicación se desplegará la camara del dispositivo,
+        con esto se podrá capturar la fotografía del objeto y se mostrará
+        la información del mismo."
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagen_ic_ayuda" />
+
+    <TextView
+        android:id="@+id/ayuda_galeria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Galeria: \n
+        Muestra las fotos guardadas de los distintos productos,
+        de los que se han solicitado información."
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/ayuda_funcionamiento"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/ayuda_info_contenedores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Contenedores: \n
+        Al seleccionar el contenedro del que se desea saber información,
+        se desplegará una nueva pantalla la cual mostrará:
+        El color del contenedor, tipo de residuos que van en él y algunos ejemplos de residuos."
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/ayuda_galeria"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <TextView
+        android:id="@+id/ayuda_legal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Legal: \n
+        En este aparto podra encontrar los terminos y condiciones de la aplicación."
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/ayuda_info_contenedores"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

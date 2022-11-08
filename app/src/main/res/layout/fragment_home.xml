@@ -11,12 +11,14 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/container_viee"
         android:name="mx.edu.reciclador.ui.home.Camara"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="parent"
+        android:layout_width="421dp"
+        android:layout_height="648dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592"
+        tools:layout="@layout/fragment_camara" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView2"
@@ -26,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="#838181"
+        android:background="#6E6A6A"
         app:menu="@menu/menu"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

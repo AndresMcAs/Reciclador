@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Legal">
+
+    <TextView
+        android:id="@+id/textTituloTerminos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/legal_terminos"
+        android:layout_marginTop="-200dp"
+        />
+
+    <TextView
+        android:id="@+id/textDescripcionTerminos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Estos Términos y Condiciones de Uso regulan las reglas a que se sujeta la utilización de la APP
+        Recicleytor (en adelante, la APP), que puede descargarse desde el dominio PlayStore disponible para el sistema operativo
+        Android. La descarga o utilización de la APP atribuye la condición de Usuario a quien lo haga e implica la
+        aceptación de todas las condiciones incluidas en este documento y en la Política de Privacidad y el Aviso Legal.
+        El Usuario debería leer estas condiciones cada vez que utilice la APP, ya que podrían ser modificadas en lo sucesivo."
+        />
+
+</LinearLayout>

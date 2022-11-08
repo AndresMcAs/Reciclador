@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Legal">
+
+    <TextView
+        android:id="@+id/textTituloUbicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/legal_informacion"
+        android:layout_marginTop="-200dp"
+        />
+
+    <TextView
+        android:id="@+id/textDescripcionTerminos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Servicios de localización \n
+        Para prestar servicios de localización Software Solutions podrá reunir,
+        utilizar y compartir datos exactos sobre ubicaciones, incluyendo la
+        situación geográfica en tiempo real de su ordenador o de su dispositivo.
+        Salvo que nos den su consentimiento, estos datos de localización se
+        recogen de manera anónima de forma que no pueden utilizarse para
+        identificarlo personalmente, y son usados para suministrar y mejorar sus
+        productos y servicios de localización."
+        />
+
+</LinearLayout>
