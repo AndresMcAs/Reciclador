@@ -15,7 +15,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#06AE0F"
+            android:background="#009A1F"
             app:popupTheme="@style/Theme.Reciclador.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>

@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import mx.edu.reciclador.databinding.FragmentInformacionBinding
 
-class Informacion : Fragment() {
+class InformacionResiduo : Fragment() {
 
     private var _binding: FragmentInformacionBinding? = null
 
@@ -28,10 +28,7 @@ class Informacion : Fragment() {
         _binding = FragmentInformacionBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSlideshow
-        informacionViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+
         return root
     }
 

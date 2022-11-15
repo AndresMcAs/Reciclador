@@ -7,7 +7,7 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="nav_identificador">Identificar</string>
-    <string name="action_settings">Ajutes</string>
+    <string name="action_settings">Ajustes</string>
     <string name="menu_identificar">Identificar</string>
     <string name="menu_gallery">Galeria</string>
     <string name="menu_contenedores">Contenedores</string>
@@ -16,7 +16,7 @@
     <string name="menu_Residuos">Contenedores</string>
 
     <!-- TODO: String de contenedores PRINCIPAL -->
-    <string name="residuos_titulo">selecciona el contenedor de tu interes</string>
+    <string name="residuos_titulo">Selecciona el contenedor de tu interés</string>
     <string name="contenedor_azul_titulo">residuos de papel</string>
     <string name="contenedor_verde_titulo">reciduos organicos</string>
     <string name="contenedor_amarillo_titulo">residuos amarillo</string>

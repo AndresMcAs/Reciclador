@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
-
+   <!--TODO aqui se agregan los fragments o acitvity para usarlos en el menu deplegale-->
     <fragment
         android:id="@+id/nav_home"
         android:name="mx.edu.reciclador.ui.home.HomeFragment"
@@ -18,11 +18,6 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_informacionResiduo"
-        android:name="mx.edu.reciclador.ui.informacion.Informacion"
-        android:label="@string/menu_identificar"
-        tools:layout="@layout/fragment_informacion" />
-    <fragment
         android:id="@+id/nav_ayuda"
         android:name="mx.edu.reciclador.ui.legal.Ayuda"
         android:label="@string/menu_Ayuda"
@@ -33,5 +28,16 @@
         android:name="mx.edu.reciclador.ui.residuos.ResiduosFragment"
         android:label="@string/menu_Residuos"
         tools:layout="@layout/fragment_residuos" />
+    <fragment
+        android:id="@+id/nav_informacion"
+        android:name="mx.edu.reciclador.ui.informacion.InformacionResiduo"
+        android:label="@string/nav_identificador"
+        tools:layout="@layout/fragment_informacion" />
+    <activity
+        android:id="@+id/nav_Legal"
+        android:name="mx.edu.reciclador.ui.legal.LegalPrincipal"
+        android:label="@string/menu_Legal"
+        tools:layout="@layout/activity_legal"
+     />
 
 </navigation>

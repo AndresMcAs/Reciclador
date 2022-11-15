@@ -22,5 +22,9 @@
             android:id="@+id/nav_Legal"
             android:icon="?android:attr/actionModeFindDrawable"
             android:title="@string/menu_Legal" />
+        <item
+            android:id="@+id/nav_informacion"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/menu_identificar" />
     </group>
 </menu>
